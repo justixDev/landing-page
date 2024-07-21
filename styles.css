@@ -7,4 +7,44 @@
 body {
   height: 100vh;
   width: 100vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.header,
+.hero,
+.footer {
+  color: #e5e7eb;
+  background: #1f2937;
+}
+
+.hero__btn,
+.sec3__btn,
+.sec3__ctaBox,
+.sec1__imgTxtCon {
+  background: #3882f8;
+  border-color: #3882f8;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.header__links {
+  list-style-type: none;
+  display: flex;
+  gap: 28px;
+}
+
+.header__logo {
+  color: #f9faf8;
+  font-size: 18px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5% 9%;
 }
