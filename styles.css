@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
@@ -21,8 +21,7 @@ body {
 
 .hero__btn,
 .sec3__btn,
-.sec3__ctaBox,
-.sec1__imgTxtCon {
+.sec3__ctaBox {
   background: #3882f8;
   border-color: #3882f8;
 }
@@ -46,5 +45,130 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 0.5% 9%;
+  padding: 0.9% 14%;
+}
+
+.hero {
+  display: flex;
+  padding: 3% 14%;
+  align-items: center;
+  gap: 25px;
+}
+
+.hero__text,
+.hero__imgCon {
+  flex: 1;
+}
+
+.hero__h1 {
+  font-size: 48px;
+}
+
+.hero__text {
+  max-width: 427px;
+}
+
+.hero__imgCon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero__img {
+  height: 400px;
+  width: 500px;
+  border: 3px solid #3882f8;
+  border-radius: 6px;
+}
+
+.hero__para {
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+
+button {
+  padding: 13px 34px;
+  font-size: 18px;
+  font-weight: 900;
+  border-radius: 10px;
+  color: #e5e7eb;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 66px;
+}
+
+.sec1__h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 83px;
+}
+
+.sec1__boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 33px;
+}
+
+.sec1__imgTxtCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 190px;
+}
+
+.sec1__img {
+  display: block;
+  width: 190px;
+  height: 200px;
+  border: 3px solid #3882f8;
+  border-radius: 10px;
+}
+
+.section2 {
+  background-color: #e5e7eb;
+}
+
+.sec2__quote {
+  font-size: 36px;
+  font-style: italic;
+  padding: 7% 20% 0;
+  color: #1f2937;
+}
+
+.sec2__h6 {
+  padding: 0 23% 7%;
+  text-align: right;
+}
+
+.section3 {
+  padding: 6% 14%;
+  color: #f9faf8;
+}
+
+.sec3__ctaBox {
+  border-radius: 10px;
+  padding: 45px 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 33px;
+}
+
+.sec3__btn {
+  border: 3px solid #f9faf8;
+}
+
+.footer__para {
+  padding: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
